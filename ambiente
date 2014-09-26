@@ -1,0 +1,79 @@
+# Creates the ideal environment for the operation on the server
+# Crea el ambiente ideal para la operación en el servidor
+# Cria o ambiente ideal para a operacao no servidor
+
+# User to transfer operations between machines
+# Usuario para transferir archivos entre maquinas
+# Usuario para operacoes de transferencia entre maquinas
+export TRANSFER="transfer"
+
+# Location of various utilities
+# Lugar de varias utilidades
+# Localizacao de utilidades diversas
+export BIREME="/usr/local/bireme"
+export   MISC="$BIREME/misc"
+
+# -------------------------------------------------------------------------- #
+# JAVA environment
+# Ambiente JAVA
+# Ambiente JAVA
+# -------------------------------------------------------------------------- #
+export CLASSPATH=.:$JAVA_HOME/lib/tools.jar
+export   MANPATH=$MANPATH:$JAVA_HOME/man
+export     TOOLS='/usr/local/bireme/misc/java_tools'
+
+# -------------------------------------------------------------------------- #
+# IAHx environment
+# Ambiente IAHx
+# Ambiente IAHx
+# -------------------------------------------------------------------------- #
+## destination address of automatic messages
+## direccion de destino de los mensajes automaticos
+## endereco destino de mensagens automaticas
+export	IAHx_ADMIN="you@youdomainname"
+
+## Default SSH port
+## Puerto por defecto del SSH
+## Porta padrao do SSH
+export	PORTsshn="22";		# Porta ssh normal
+export	PORTsshp="22";		# Porta ssh producao
+
+## Production server
+## Servidor de produccion
+## Servidor de producao
+export	SPiAHx="your_servername"
+
+## Approval server
+## Servidor de aprobacion
+## Servidor de homologacao
+export	SHiAHx="your_servername"
+
+## Test server
+## Servidor de prueba
+## Servidor de teste
+export	STiAHx="your_servername"
+
+## Location of executables components of the interface layer
+## Lugar de componentes ejecutables de la capa de interfaz
+## Localizacao de componentes executaveis da camada de interface
+export	PATH_IAHX="/home/javaapps/iahx-server/bin"
+
+## Root of ready index
+## Raiz de los indices listos
+## Raiz dos indices prontos
+export	INDEX_ROOT="/home/javaapps/iahx-server/indexes"
+
+## Top of processing tree
+## Top del arbol de procesamiento 
+## Topo da arvore do processamento
+export	ROOT_IAHX="/home/javaapps/iahx-data"
+
+# localizacao de executaveis do processamento
+export	PATH_EXEC="${ROOT_IAHX}/exec"
+
+# localizacao de areas de processamento
+export	PATH_PROC="${ROOT_IAHX}/proc"
+
+# localizacao de arquivos de entrada
+export	PATH_INPUT="${ROOT_IAHX}/xml-inbox"
+

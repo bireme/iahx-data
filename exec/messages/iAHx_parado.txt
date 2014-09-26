@@ -1,0 +1,6 @@
+<h1>IAHx-server SRVNUM de SHiAHx PARADO!!!</h1>
+<p>Esta é uma mensagem gerada automaticamente.</p>
+<p>Foi detectado em DATAHORA que o servidor número SRVNUM de SHiAHx esta <i>down</i>.</p>
+<p>Procedendo à tentativa de inicia-lo. Caso não se receba um aviso de falha desta tentativa ele terá sido disparado com sucesso</p>
+<h4>Atenciosamente,<br>Processamento IAHx</h4>
+

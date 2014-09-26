@@ -1,0 +1,4 @@
+ATENÇÃO
+
+<p>Ocorreu uma falha no processamento, verifique o log em anexo.</p>
+

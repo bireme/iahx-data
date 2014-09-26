@@ -1,0 +1,3 @@
+El archivo *ambiente*, correctamente editado, debe registrarse en 
+el directorio /usr/local/bireme/misc. Caso no exista el se debe
+crear (mkdir -p /usr/local/bireme/misc).

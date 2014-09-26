@@ -1,0 +1,9 @@
+<body>
+<p>Prezado,</p>
+
+<p>Esta é uma mensagem automática do sistema de atualização do índice de pesquisa do portal <b>Default</b>.</p>
+
+<p>Favor verificar no ambiente de homologação do portal o sistema de pesquisa e caso esteja OK providenciar junto à unidade de infra-estrutura a reiniciação do serviço no servidor de produção (srviahx.sh) caso necessário.</p>
+
+<p>Atenciosamente,</p>
+<p>Processamento IAHx</p>

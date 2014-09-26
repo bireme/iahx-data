@@ -1,0 +1,36 @@
+20140925 # /home/javaapps/iahx-data/exec/update-index.sh    default
+-*- 2014-09-25
+[CRON-INI] ==> Process of default in 20140925 18:05:39
+java -jar /home/javaapps/iahx-data/exec/EnviadorDeEmail.jar -to "you@youdomainname" -cc "" -subject "Atualized in serverofi5: default" -messagefile "/home/javaapps/iahx-data/exec/messages/default.txt" -attach "logs/cron-weekly.txt"
+[CRON-FIM] ==> Process of default in 20140925 18:05:41
+20140925 # /home/javaapps/iahx-data/exec/update-index.sh    default
+-*- 2014-09-25
+[CRON-INI] ==> Process of default in 20140925 18:07:44
+java -jar /home/javaapps/iahx-data/exec/EnviadorDeEmail.jar -to "you@youdomainname" -cc "" -subject "Atualized in serverofi5: default" -messagefile "/home/javaapps/iahx-data/exec/messages/default.txt" -attach "logs/cron-weekly.txt"
+[CRON-FIM] ==> Process of default in 20140925 18:07:46
+20140925 # /home/javaapps/iahx-data/exec/update-index.sh    default
+-*- 2014-09-25
+[CRON-INI] ==> Process of default in 20140925 18:07:59
+java -jar /home/javaapps/iahx-data/exec/EnviadorDeEmail.jar -to "you@youdomainname" -cc "" -subject "Atualized in serverofi5: default" -messagefile "/home/javaapps/iahx-data/exec/messages/default.txt" -attach "logs/cron-weekly.txt"
+[CRON-FIM] ==> Process of default in 20140925 18:08:01
+Erro ao enviar email para you@youdomainname
+Erro ao enviar email para you@youdomainname
+20140925 # /home/javaapps/iahx-data/exec/update-index.sh    default
+-*- 2014-09-25
+[CRON-INI] ==> Process of default in 20140925 18:08:36
+java -jar /home/javaapps/iahx-data/exec/EnviadorDeEmail.jar -to "you@youdomainname" -cc "" -subject "Atualized in serverofi5: default" -messagefile "/home/javaapps/iahx-data/exec/messages/default.txt" -attach "logs/cron-weekly.txt"
+[CRON-FIM] ==> Process of default in 20140925 18:08:38
+Erro ao enviar email para you@youdomainname
+Erro ao enviar email para you@youdomainname
+20140925 # /home/javaapps/iahx-data/exec/update-index.sh    default
+-*- 2014-09-25
+[CRON-INI] ==> Process of default in 20140925 18:08:49
+java -jar /home/javaapps/iahx-data/exec/EnviadorDeEmail.jar -to "you@youdomainname" -cc "" -subject "Atualized in serverofi5: default" -messagefile "/home/javaapps/iahx-data/exec/messages/default.txt" -attach "logs/cron-weekly.txt"
+[CRON-FIM] ==> Process of default in 20140925 18:08:51
+Erro ao enviar email para you@youdomainname
+Erro ao enviar email para you@youdomainname
+20140925 # /home/javaapps/iahx-data/exec/update-index.sh    default
+-*- 2014-09-25
+[CRON-INI] ==> Process of default in 20140925 18:15:53
+java -jar /home/javaapps/iahx-data/exec/EnviadorDeEmail.jar -to "you@youdomainname" -cc "" -subject "Atualized in serverofi5: default" -messagefile "/home/javaapps/iahx-data/exec/messages/default.txt" -attach "logs/cron-weekly.txt"
+[CRON-FIM] ==> Process of default in 20140925 18:15:55

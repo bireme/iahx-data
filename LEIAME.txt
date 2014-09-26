@@ -1,0 +1,4 @@
+O arquivo *ambiente*, devidamente, editado, deverá estar gravado no
+diretório /usr/local/bireme/misc, que deverá ser criado caso nao
+exista (comando mkdir -p /usr/local/bireme/misc).
+

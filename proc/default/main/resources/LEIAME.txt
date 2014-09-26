@@ -1,0 +1,11 @@
+Para fazer a conversão de base CDS/ISIS de metodologia LILACS para XML de
+entrada do processamento IAHx utilize os formatos prolog.pft, epilog.pft,
+e lil2IAHX.pft (que utiliza o doctype.pft) com um comando semelhante ao
+seguinte:
+
+	mx BASE lw=0 gizmo=resources/gcharent epilog=@resources/epilog.pft \
+	prolog=@resources prolog.pft pft=@resources/lil2IAHX.pft \
+	-all now > INPUT.xml
+
+Coloque o arquivo INPUT.xml no diretório de entrada e efetue o
+processamento de IAHx.
