@@ -1,11 +1,11 @@
-# Creates the usual environment for the operation on the server
+﻿# Creates the usual environment for the operation on the server
 # Crea el ambiente ideal para la operación en el servidor
 # Cria o ambiente ideal para a operacao no servidor
 
 # User that transfers files between servers. Prefer using a user with lower rights.
 # Usuario para transferir archivos entre servidores. Prefira un usuario con pocos derechos.
 # Usuario para operacoes de transferencia entre servidores. Prefria um usuario com poucos direitos. 
-export TRANSFER="root"
+export TRANSFER="user_name"
 
 # Location of various utilities
 # Lugar de varias utilidades
@@ -18,9 +18,9 @@ export   MISC="$BIREME/misc"
 # Ambiente JAVA
 # Ambiente JAVA
 # -------------------------------------------------------------------------- #
-export CLASSPATH=.:$JAVA_HOME/lib/tools.jar
-export   MANPATH=$MANPATH:$JAVA_HOME/man
-export     TOOLS='/usr/local/bireme/misc/java_tools'
+export CLASSPATH=".:$JAVA_HOME/lib/tools.jar"
+export   MANPATH="$MANPATH:$JAVA_HOME/man"
+export     TOOLS="${MISC}/java_tools"
 
 # -------------------------------------------------------------------------- #
 # IAHx environment
@@ -43,7 +43,7 @@ export _BIT7=128
 ## destination address of automatic messages
 ## direccion de destino de los mensajes automaticos
 ## endereco destino de mensagens automaticas
-export	IAHx_ADMIN="silvaasa@paho.org"
+export	IAHx_ADMIN="email@where"
 
 ## Default SSH port
 ## Puerto por defecto del SSH
@@ -99,5 +99,5 @@ export	PATH_INPUT="${ROOT_IAHX}/xml-inbox"
 ## Including some specific PATH information to allow access to shell scripts
 ## Incluyendo algunos PATH especificos para permitir acceso a los shell scripts
 ## Incluindo alguns PATH especificos para permitir acesso aos shell scripts
-export  PATH=${PATH}:${PATH_IAHX}:${PATH_EXEC}
+export  PATH="${PATH}:${PATH_IAHX}:${PATH_EXEC}"
 
