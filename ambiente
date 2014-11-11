@@ -1,25 +1,25 @@
-﻿# Creates the usual environment for the operation on the server
+# Creates the usual environment for the operation on the server
 # Crea el ambiente ideal para la operación en el servidor
 # Cria o ambiente ideal para a operacao no servidor
 
 # User that transfers files between servers. Prefer using a user with lower rights.
 # Usuario para transferir archivos entre servidores. Prefira un usuario con pocos derechos.
 # Usuario para operacoes de transferencia entre servidores. Prefria um usuario com poucos direitos. 
-export TRANSFER="user_name"
+export TRANSFER="root"
 
 # Location of various utilities
 # Lugar de varias utilidades
 # Localizacao de utilidades diversas
 export BIREME="/usr/local/bireme"
-export   MISC="$BIREME/misc"
+export   MISC="${BIREME}/misc"
 
 # -------------------------------------------------------------------------- #
 # JAVA environment
 # Ambiente JAVA
 # Ambiente JAVA
 # -------------------------------------------------------------------------- #
-export CLASSPATH=".:$JAVA_HOME/lib/tools.jar"
-export   MANPATH="$MANPATH:$JAVA_HOME/man"
+export CLASSPATH=".:${JAVA_HOME}/lib/tools.jar"
+export   MANPATH="${MANPATH}:${JAVA_HOME}/man"
 export     TOOLS="${MISC}/java_tools"
 
 # -------------------------------------------------------------------------- #
@@ -38,7 +38,7 @@ export _BIT3_=8
 export _BIT4_=16
 export _BIT5_=32
 export _BIT6_=64
-export _BIT7=128
+export _BIT7_=128
 
 ## destination address of automatic messages
 ## direccion de destino de los mensajes automaticos
