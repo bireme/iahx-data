@@ -8,8 +8,8 @@
 export TRANSFER="root"
 
 # Location of various utilities
-# Lugar de varias utilidades
-# Localizacao de utilidades diversas
+# Lugar de varias utilitarios
+# Localizacao de utilitarios diversos
 export BIREME="/usr/local/bireme"
 export   MISC="${BIREME}/misc"
 
